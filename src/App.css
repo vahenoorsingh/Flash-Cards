@@ -1,0 +1,90 @@
+#root{
+    width: 700px;
+}
+.progress-container{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 3px rgb(69, 123, 157) solid;
+}
+.progress-fill{
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(81, 81, 81);
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 218, 220);
+    color: rgb(69, 123, 157);
+}
+.slide-container{
+    border: 3px rgb(69, 123, 157) solid;
+    border-radius: 20px;
+    margin-top: 30px;
+    /* width: 100%;
+     */
+    height: 400px;
+    /* background-color: #e0e0e0; */
+    color: rgb(69, 123, 157);
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* display: none; */
+}
+.slide-question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.slide-answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.slide-display{
+    margin: 10px;
+    background-color: rgb(168, 218, 220);
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title-container{
+    font-family: "Fredoka", Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(29, 53, 87);
+}
+button{
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(168, 218, 220);
+    width: 130px;
+    border: none;
+    padding: 7px;
+    font-family: "Fredoka", Helvetica, sans-serif;
+    color: rgb(69, 123, 157);
+}
+button:hover{
+    color: rgb(29, 53, 87);
+}
+button:active{
+    color: rgb(241, 250, 238);
+}
