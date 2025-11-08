@@ -12,4 +12,7 @@ This is a single-page application built using React designed to help users study
 ![App Screenshot](./Screenshot-1.png)
 ## How to run locally
 - Open terminal and run ```cd ~/Desktop``` or cd to any folder of your choice.
-- Run git clone 
+- Run ```git clone https://github.com/vahenoorsingh/Flash-Cards.git```
+- Run ```npm install```
+- Run ```npm run dev```
+- Open the link in your browser indicated in your terminal
